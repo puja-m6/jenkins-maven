@@ -4,10 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Random2 {
+public class RandomTest {
 	@Test
-	public void instagram(){
+	public void instagramTest(){
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://leetcode.com/");
+		driver.get("https://www.instagram.com/");
 	}
 }
